@@ -3,23 +3,17 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import { Fade, Reveal } from 'react-awesome-reveal'
 import Languages from './components/Languages';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { AiOutlineMenu as Menu, AiOutlineClose as Close } from 'react-icons/ai'
+import { useMediaQuery } from '@mui/material';
 
 export default function Home() {
 
-  const [width, setWidth] = useState(window.innerWidth);
+  const [visible, setVisible] = useState(1);
 
   const [show, setShow] = useState(false);
 
-  const [visible, setVisible] = useState(1);
-
-  useEffect(() => {
-    const WindowResize = () => {
-      setWidth(window.innerWidth)
-    }
-    window.addEventListener('resize', WindowResize)
-  })
+  const mobile = useMediaQuery('(max-width: 1080px)');
 
   const projects = [
     
@@ -59,7 +53,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      { width <= 1080 ? 
+      { mobile ? 
 
         <>
           <h1 className={styles.logo}>
