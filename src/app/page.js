@@ -43,18 +43,18 @@ export default function Home() {
       id: 3,
       title: 'Interactive Card Form',
       img: {
-        src: '/card.png',
+        src: '/cardts.png',
         alt: 'card-site'
       },
-      description: 'This is a project from FrontEnd Mentor, that I\'ve made using React. This consists in a Form that you can register your credit card data.',
-      link: 'https://merry-narwhal-bbcdde.netlify.app/'
+      description: 'This is a project from FrontEnd Mentor, that I\'ve made using React, TypeScript and UseForm hook. This consists in a Form that you can register your credit card data.',
+      link: 'https://super-caramel-7241f7.netlify.app/'
     }
   ]
 
   return (
+    
     <main className={styles.main}>
       { mobile ? 
-
         <>
           <h1 className={styles.logo}>
             <a href="#">Rafael-Urei</a>
@@ -90,7 +90,7 @@ export default function Home() {
               <ul className={styles.nav_list}>
                 <li className={styles.nav_item}><a href="#aboutme" className={styles.nav_link}>About Me</a></li>
                 <li className={styles.nav_item}><a href="#portfolio" className={styles.nav_link}>Portfolio</a></li>
-                <li className={styles.nav_item}><a href="#" className={styles.nav_link}>Contact Me</a></li>
+                <li className={styles.nav_item}><a href="#contact" className={styles.nav_link}>Contact Me</a></li>
               </ul>
             </nav>
             <nav className={styles.nav2}>
@@ -102,7 +102,6 @@ export default function Home() {
             </nav>
           </div>
         </header>
-
       }
 
       <section className={styles.aboutme}>
