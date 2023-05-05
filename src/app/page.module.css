@@ -121,10 +121,56 @@
   transition: 0.5s;
 }
 
+.language2 {
+  height: 50px;
+  width: 50px;
+  opacity: 70%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.language3 {
+  height: 50px;
+  width: 50px;
+  opacity: 70%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.language4 {
+  height: 50px;
+  width: 50px;
+  opacity: 70%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
 .language:hover {
   opacity: 100%;
   scale: 0.9;
   z-index: 1;
+  color: yellow;
+}
+
+.language2:hover {
+  opacity: 100%;
+  scale: 0.9;
+  z-index: 1;
+  color: rgb(255, 72, 0);
+}
+
+.language3:hover {
+  opacity: 100%;
+  scale: 0.9;
+  z-index: 1;
+  color: rgb(22, 110, 243);
+}
+
+.language4:hover {
+  opacity: 100%;
+  scale: 0.9;
+  z-index: 1;
+  color: rgb(0, 247, 255);
 }
 
 .language_descr {

@@ -20,7 +20,7 @@ export default function Home() {
     
     {
       id: 1,
-      title: 'To Do List',
+      title: 'To Do List (In progress...)',
       img: {
         src: '/notfound.jpg',
         alt: 'Todolist-site'
@@ -31,7 +31,7 @@ export default function Home() {
 
     {
       id: 2,
-      title: 'Firebase Login Project',
+      title: 'Firebase Login Project (In progress...)',
       img: {
         src: '/notfound.jpg',
         alt: 'Firebaselogin-site'
@@ -113,7 +113,7 @@ export default function Home() {
       }
 
       <section className={styles.aboutme}>
-          <Fade cascade duration={2000}>
+          <Fade cascade duration={2000} triggerOnce>
             <Image
             id='aboutme'
             className={styles.profile_picture}
