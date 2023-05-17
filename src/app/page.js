@@ -31,13 +31,13 @@ export default function Home() {
 
     {
       id: 2,
-      title: 'Firebase Login Project (In progress...)',
+      title: 'Firebase Login Project With TailwindCSS',
       img: {
-        src: '/notfound.jpg',
+        src: '/tailwind.png',
         alt: 'Firebaselogin-site'
       },
       description: 'This is a little project that I\'ve made to practice Firebase and the useForm hook.',
-      link: '#'
+      link: 'https://main--leafy-pie-6d5299.netlify.app/'
     },
 
     {
