@@ -98,7 +98,7 @@ export default function Home() {
               <ul className={styles.nav_list2}>
                 <li className={styles.nav_item}>
                   <a
-                    href="https://www.instagram.com/rafael_urei/"
+                    href="https://www.instagram.com/rafaelss.exe/"
                     target="_blank"
                     className={styles.nav_link}
                   >
