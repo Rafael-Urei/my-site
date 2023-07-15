@@ -24,7 +24,7 @@ export default function Home() {
         alt: "Lab-Dashboard",
       },
       description:
-        "This is a full project system management of a laboratory with JSON, MUI ans React.",
+        "This is a full project system management of a laboratory with JSON, MUI and React.",
       link: "https://github.com/Rafael-Urei/DashBoard-Project-JSON-Server",
     },
 
@@ -226,7 +226,7 @@ export default function Home() {
               <Reveal key={project.id} duration={1000} delay={500}>
                 <div className={styles.project} id="portfolio">
                   <div className={styles.project_data}>
-                    <h1>
+                    <h1 className={styles.postTitle}>
                       <a
                         href={project.link}
                         target="_blank"
