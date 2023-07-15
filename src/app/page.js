@@ -18,7 +18,7 @@ export default function Home() {
   const projects = [
     {
       id: 1,
-      title: "Laboratory Dashboard",
+      title: "Laboratory Dashboard In Progress...",
       img: {
         src: "/Dashboard.png",
         alt: "Lab-Dashboard",
@@ -30,7 +30,7 @@ export default function Home() {
 
     {
       id: 2,
-      title: "Firebase Login Project With TailwindCSS",
+      title: "Firebase Login with TailwindCSS",
       img: {
         src: "/tailwind.png",
         alt: "Firebaselogin-site",
