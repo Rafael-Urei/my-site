@@ -18,14 +18,14 @@ export default function Home() {
   const projects = [
     {
       id: 1,
-      title: "To Do List",
+      title: "Laboratory Dashboard",
       img: {
-        src: "/todolist.jpg",
-        alt: "Todolist-site",
+        src: "/Dashboard.png",
+        alt: "Lab-Dashboard",
       },
       description:
-        "This is a full project that includes a Login, Register and a To do List with your tasks and data saved in the Firebase FireStore.",
-      link: "#",
+        "This is a full project system management of a laboratory with JSON, MUI ans React.",
+      link: "https://github.com/Rafael-Urei/DashBoard-Project-JSON-Server",
     },
 
     {
