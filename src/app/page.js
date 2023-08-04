@@ -287,6 +287,14 @@ export default function Home() {
             <ul className={styles.list}>
               <li>61 99527-2316</li>
               <li>rafaelss.dev@gmail.com</li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/rafael-souza-390513275/"
+                  target="_blank"
+                >
+                  Linkedin
+                </a>
+              </li>
             </ul>
           </div>
           <div>
