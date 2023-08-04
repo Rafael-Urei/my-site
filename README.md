@@ -1,4 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Apresentação:
+
+Este é um projeto pessoal, básico, apenas para mostrar meus projetos e me apresentar para as empresas, nele contém todos os meus contatos e meu Curriculum Vitae.
+
+## Bibliotecas e Frameworks utilizados:
+
+NextJS -> Apenas testando a tecnologia.
+MaterialUI - Como base para o CSS.
+React Aewsome Reveal-> Para as animações de Fade.
 
 ## Getting Started
 
