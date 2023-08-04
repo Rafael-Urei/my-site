@@ -100,15 +100,6 @@ export default function Home() {
               <ul className={styles.nav_list2}>
                 <li className={styles.nav_item}>
                   <a
-                    href="https://www.instagram.com/rafaelss.exe/"
-                    target="_blank"
-                    className={styles.nav_link}
-                  >
-                    Instagram
-                  </a>
-                </li>
-                <li className={styles.nav_item}>
-                  <a
                     href="https://github.com/Rafael-Urei"
                     target="_blank"
                     className={styles.nav_link}
@@ -118,11 +109,11 @@ export default function Home() {
                 </li>
                 <li className={styles.nav_item}>
                   <a
-                    href="https://api.whatsapp.com/send?phone=5561995272316"
+                    href="https://www.linkedin.com/in/rafael-souza-390513275/"
                     target="_blank"
                     className={styles.nav_link}
                   >
-                    WhatsApp
+                    Linkedin
                   </a>
                 </li>
               </ul>
@@ -157,15 +148,6 @@ export default function Home() {
                 <ul className={styles.nav_list}>
                   <li className={styles.nav_item}>
                     <a
-                      href="https://www.instagram.com/rafaelss.exe/"
-                      target="_blank"
-                      className={styles.nav_link}
-                    >
-                      Instagram
-                    </a>
-                  </li>
-                  <li className={styles.nav_item}>
-                    <a
                       href="https://github.com/Rafael-Urei"
                       target="_blank"
                       className={styles.nav_link}
@@ -175,11 +157,11 @@ export default function Home() {
                   </li>
                   <li className={styles.nav_item}>
                     <a
-                      href="https://api.whatsapp.com/send?phone=5561995272316"
+                      href="https://www.linkedin.com/in/rafael-souza-390513275/"
                       target="_blank"
                       className={styles.nav_link}
                     >
-                      WhatsApp
+                      Linkedin
                     </a>
                   </li>
                 </ul>
