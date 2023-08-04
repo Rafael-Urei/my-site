@@ -453,3 +453,21 @@
   align-items: center;
   justify-content: center;
 }
+
+.langButton {
+  height: 30px;
+  width: 50px;
+  background-color: #030303;
+  color: purple;
+  border: none;
+  outline: none;
+  transition: 200ms;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.langButton:hover {
+  background-color: white;
+}

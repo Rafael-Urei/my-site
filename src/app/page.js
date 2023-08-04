@@ -11,6 +11,8 @@ import Head from "next/head";
 export default function Home() {
   const [visible, setVisible] = useState(1);
 
+  const [language, setLanguage] = useState(false);
+
   const [show, setShow] = useState(false);
 
   const mobile = useMediaQuery("(max-width: 1080px)");
@@ -66,7 +68,7 @@ export default function Home() {
         {mobile ? (
           <>
             <h1 className={styles.logo}>
-              <a href="#">Rafael-Urei</a>
+              <a href="#">Rafael</a>
             </h1>
             <div
               className={styles.menu_container}
@@ -204,14 +206,37 @@ export default function Home() {
                 <span>&lt;/h1&gt;</span>
               </h1>
               <span className={styles.span_p}>&lt;p&gt;</span>
-              <p className={styles.p}>
-                Estudo programação desde 2021, autodidata. Minha principal
-                linguagem de programação é JavaScript, possuo também boas noções
-                de HTML e CSS. Atualmente estou estudando TypeScript e React e
-                estou cursando Ciências da Computação pela instituição
-                Descomplica. Meu hobbie é produzir artes digitais o que me
-                possibilita ter algumas noçoes de design, como valores e cores.
-              </p>
+              <button
+                className={styles.langButton}
+                onClick={() => setLanguage(!language)}
+              >
+                {language ? "pt-BR" : "en-US"}
+              </button>
+              {!language ? (
+                <>
+                  <p className={styles.p}>
+                    Eu estudo desenvolvimento de software desde 2021,
+                    autodidata. Atualmente desenvolvo em ReactJS e TypeScript, e
+                    eu possuo um sólido conhecimento de HTML e CSS. Atualmente
+                    estou cursando Ciência da Computação FullStack na
+                    instituição Descomplica Faculdade Digital. Tenho alguns
+                    hobbies, dois deles são: Arte Digital 2D e Arte 3D, possuo
+                    um bom conhecimento de design também.
+                  </p>
+                </>
+              ) : (
+                <>
+                  <p className={styles.p}>
+                    I study software development since 2021, self-taught.
+                    Currently I development with ReactJS and TypeScript, and I
+                    have a solid knowledge with HTML and CSS. Currently I'm
+                    doing a FullStack Compute Science degree at Descomplica
+                    Faculdade Digital. I got some hobbies, two of them are 2D
+                    digital art and 3D art, I have a good mindset for Design
+                    too.
+                  </p>
+                </>
+              )}
               <span className={styles.span_p}>&lt;/p&gt;</span>
             </Fade>
             <div className={styles.languages_container}>
