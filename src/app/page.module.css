@@ -457,8 +457,8 @@
 .langButton {
   height: 30px;
   width: 50px;
-  background-color: #030303;
-  color: purple;
+  background-color: #0c0c0c;
+  color: rgb(86, 16, 179);
   border: none;
   outline: none;
   transition: 200ms;

@@ -202,7 +202,10 @@ export default function Home() {
           <div>
             <Fade cascade duration={1000} delay={250}>
               <h1>
-                <span>&lt;h1&gt;</span>Olá, me chamo Rafael!
+                <span>&lt;h1&gt;</span>
+                {!language
+                  ? "Olá, me chamo Rafael!"
+                  : "Hello, my name is Rafael!"}
                 <span>&lt;/h1&gt;</span>
               </h1>
               <span className={styles.span_p}>&lt;p&gt;</span>
