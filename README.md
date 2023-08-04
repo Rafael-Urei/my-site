@@ -5,7 +5,9 @@ Este é um projeto pessoal, básico, apenas para mostrar meus projetos e me apre
 ## Bibliotecas e Frameworks utilizados:
 
 NextJS -> Apenas testando a tecnologia.
+
 MaterialUI - Como base para o CSS.
+
 React Aewsome Reveal-> Para as animações de Fade.
 
 ## Getting Started
