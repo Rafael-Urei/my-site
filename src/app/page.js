@@ -232,7 +232,7 @@ export default function Home() {
                   <p className={styles.p}>
                     I study software development since 2021, self-taught.
                     Currently I development with ReactJS and TypeScript, and I
-                    have a solid knowledge with HTML and CSS. Currently I'm
+                    have a solid knowledge with HTML and CSS. Currently I am
                     doing a FullStack Compute Science degree at Descomplica
                     Faculdade Digital. I got some hobbies, two of them are 2D
                     digital art and 3D art, I have a good mindset for Design
