@@ -72,8 +72,8 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: #0a0b0da4;
-  box-shadow: inset 0px 0px 10px #0a0b0d3f;
+  background-color: #fff;
+  margin-bottom: 20px;
 }
 
 .profile_picture {
@@ -84,7 +84,7 @@
 .aboutme div {
   max-width: 600px;
   text-align: justify;
-  color: #c8d2e6;
+  color: #4f5c75;
 }
 
 .aboutme div h1 {
@@ -175,7 +175,6 @@
 
 .language_descr {
   position: absolute;
-  background-color: #0c0c0c;
   border-radius: 5px;
   padding: 5px;
   top: 140%;
@@ -197,7 +196,7 @@
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  background-color: #0c0c0c;
+  color: #4f5c75;
 }
 
 .project {
@@ -206,15 +205,16 @@
   justify-content: center;
   width: 500px;
   margin: 20px 0px;
+  color: #101a2e;
 }
 
 .project_data {
-  color: #c8d2e6;
+  color: #101a2e;
   text-align: center;
 }
 
 .project_data h1 a {
-  color: #c8d2e6;
+  color: #101a2e;
 }
 
 .project_data p {
@@ -230,19 +230,18 @@
   border: none;
   outline: none;
   transition: 0.5s;
-  color: #8b869e;
+  color: #101a2e;
   font-size: 1rem;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .project_img {
   border-radius: 5px;
-  opacity: 70%;
   transition: 0.5s;
 }
 
 .project_img:hover {
-  opacity: 100%;
   scale: 0.97;
 }
 
@@ -260,7 +259,7 @@
 
 .h2 {
   font-size: 0.9rem;
-  color: #c8d2e6;
+  color: #ffffff;
   margin-bottom: 10px;
 }
 
@@ -268,11 +267,14 @@
   display: flex;
   flex-direction: column;
   list-style: none;
+  color: #ffffff;
+  font-weight: 500;
 }
 
 .list li {
   font-size: 0.8rem;
   margin: 5px;
+  color: #ffffff;
 }
 
 .footer_create {
@@ -280,8 +282,7 @@
   bottom: 0px;
   left: 50%;
   transform: translate(-50%, -30%);
-  background-color: #030303;
-  color: #c8d2e6;
+  background-color: #161616;
   width: 100%;
   text-align: center;
   margin: 0;
@@ -457,7 +458,6 @@
 .langButton {
   height: 30px;
   width: 50px;
-  background-color: #0c0c0c;
   color: rgb(86, 16, 179);
   border: none;
   outline: none;
@@ -469,5 +469,5 @@
 }
 
 .langButton:hover {
-  background-color: white;
+  background-color: #ccccdd;
 }

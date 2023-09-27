@@ -9,7 +9,7 @@ import { useMediaQuery } from "@mui/material";
 import Head from "next/head";
 
 export default function Home() {
-  const [visible, setVisible] = useState(1);
+  const [visible, setVisible] = useState(2);
 
   const [language, setLanguage] = useState(false);
 
@@ -20,6 +20,18 @@ export default function Home() {
   const projects = [
     {
       id: 1,
+      title: "Firebase Login and Todolist with TailwindCSS",
+      img: {
+        src: "/todolist.png",
+        alt: "Todolist-site",
+      },
+      description:
+        "This is a medium size personal project that I've made to practice Firebase, React-Hook-Form, TypeScript and TailwindCSS.",
+      link: "https://github.com/Rafael-Urei/Firebase-TodoList",
+    },
+
+    {
+      id: 2,
       title: "Laboratory Dashboard In Progress...",
       img: {
         src: "/Dashboard.png",
@@ -28,18 +40,6 @@ export default function Home() {
       description:
         "This is a full project system management of a laboratory with JSON, MUI and React.",
       link: "https://github.com/Rafael-Urei/DashBoard-Project-JSON-Server",
-    },
-
-    {
-      id: 2,
-      title: "Firebase Login with TailwindCSS",
-      img: {
-        src: "/tailwind.png",
-        alt: "Firebaselogin-site",
-      },
-      description:
-        "This is a little project that I've made to practice Firebase and the useForm hook.",
-      link: "https://main--leafy-pie-6d5299.netlify.app/",
     },
 
     {
@@ -52,6 +52,18 @@ export default function Home() {
       description:
         "This is a project from FrontEnd Mentor, that I've made using React, TypeScript and UseForm hook. This consists in a Form that you can register your credit card data.",
       link: "https://super-caramel-7241f7.netlify.app/",
+    },
+
+    {
+      id: 4,
+      title: "Login With Firebase",
+      img: {
+        src: "/tailwind.png",
+        alt: "login-tailwind",
+      },
+      description:
+        "Simple Login and Register with React, Firebase and TailwindCSS",
+      link: "https://leafy-pie-6d5299.netlify.app/",
     },
   ];
 
@@ -255,7 +267,7 @@ export default function Home() {
                         className={styles.project_img}
                         src={project.img.src}
                         alt={project.img.alt}
-                        width={600}
+                        width={700}
                         height={350}
                       />
                     </a>
@@ -266,7 +278,7 @@ export default function Home() {
           })}
           {visible < 3 ? (
             <button
-              onClick={() => setVisible((prev) => prev + 1)}
+              onClick={() => setVisible((prev) => prev + 2)}
               className={styles.increment_button}
             >
               Show More
@@ -313,7 +325,7 @@ export default function Home() {
             </ul>
           </div>
           <p className={styles.footer_create} id="contact">
-            Created by Rafael
+            Created by Rafael with Next.JS and React
           </p>
         </footer>
       </main>
